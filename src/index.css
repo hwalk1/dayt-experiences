@@ -36,6 +36,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .hero--img {
@@ -44,7 +45,7 @@ body {
 }
 
 .hero--content {
-  margin-left: -100px;
+  margin-left: -117px;
 }
 
 .hero--content > h1 {
@@ -65,4 +66,49 @@ body {
   text-align: left;
   width: 300px;
 
+}
+
+.card--main {
+  width: 176px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin:50px 40px;
+}
+
+.card--main > p {
+  margin: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 8px
+
+}
+
+.card--review {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin: 8px 0px;
+}
+
+.card--review > p{
+  margin: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  margin: 0px 2px
+}
+
+.card--star {
+  height: 8px
+}
+
+.card--main > img {
+  border-radius: 9px;
 }
