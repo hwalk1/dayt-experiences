@@ -1,1 +1,22 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+}
+
+.navbar--main {
+  height: 70px;
+  width: 100%;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar--main > img{
+  height: 25px;
+  width: 85px;
+  margin-left: 30px;
+}
